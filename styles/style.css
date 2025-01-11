@@ -1,5 +1,6 @@
 body{
     font-family: Fira Sans;
+    background-color: #F1F1F3;
 }
 
 
@@ -153,3 +154,40 @@ color: red
 /* recernt news */
 
 /* main end */
+
+
+.last_section{
+    max-width: 1280px;
+    height: 464px;
+    margin: 0 auto;
+    margin-top: 80PX; 
+    text-align: center;
+    background-color: #F1F1F3;
+}
+.last_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.takar_btn{
+    padding: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    border: 1px solid #0E0E0E ;
+    
+}
+.takar_btn:hover{
+    background-color: red;
+    color: white;
+}
+.btn{
+    width: 1032px;
+    height: 64px;
+    font-size: 20px;
+    color: #0E0E0E;
+    background-color: #FFff;
+    margin-top: 32px;
+}
