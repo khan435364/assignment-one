@@ -17,6 +17,8 @@ body{
     max-width: 1280px;
     max-height: 560px;
     margin: 0 auto;
+    align-items: center;
+
 }
 .banner_content{
     max-width:622px ;
@@ -49,6 +51,7 @@ body{
 }
 .banner_btn:hover{
     background-color: red;
+    cursor: pointer;
 }
 .banner_img{
     max-width: 474.03px;
@@ -121,7 +124,9 @@ body{
     border: none;
 }
 .card_btn:hover{
-color: red
+    color: red;
+    cursor: pointer;
+    
 
 }
 .dr_younus{
@@ -182,6 +187,7 @@ color: red
 .takar_btn:hover{
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 .btn{
     width: 1032px;
@@ -190,4 +196,42 @@ color: red
     color: #0E0E0E;
     background-color: #FFff;
     margin-top: 32px;
+}
+.done:hover{
+    background-color:black;
+    cursor: pointer;
+}
+/* 
+main end */
+.footer{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80PX;
+    background-color: #C6E4D6;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.subscribe{
+    width: 750px;
+    height: 235px;
+    margin-top: 80px;
+}
+.email{
+    width: 700px;
+    height: 56px;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.foot{
+  display: flex;
+  
+}
+.sub_btn{
+    border-radius: 0px 5px 5px 0px ;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #F1F1F3;
 }
